@@ -161,7 +161,7 @@
             Controls.Add(button2);
             Controls.Add(button1);
             Name = "Form1";
-            Text = "Tic-Tac-Toe Game, by S1125566";
+            Text = "411221003";
             Load += Form1_Load_1;
             ResumeLayout(false);
             PerformLayout();

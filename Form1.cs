@@ -34,10 +34,11 @@ namespace ox
             //避免下第二次
             Button button = (Button)sender;
             button.Text = playermMarker;
+            checkWinner();
             playermMarker = playermMarker == "X" ? "O" : "X";
             label2.Text = playermMarker;
             //
-            checkWinner();
+
         }
 
         private void checkWinner()

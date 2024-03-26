@@ -37,6 +37,26 @@ namespace ox
             {
                 MessageBox.Show(button1.Text, "Winner is...");
             }
+            if (button4.Text == button5.Text && button5.Text == button6.Text)
+            {
+                MessageBox.Show(button1.Text, "Winner is...");
+                return;
+            }
+            if (button7.Text == button8.Text && button8.Text == button9.Text)
+            {
+                MessageBox.Show(button1.Text, "Winner is...");
+                return;
+            }
+            if (button1.Text == button5.Text && button5.Text == button9.Text)
+            {
+                MessageBox.Show(button1.Text, "Winner is...");
+                return;
+            }
+            if (button3.Text == button5.Text && button5.Text == button7.Text)
+            {
+                MessageBox.Show(button1.Text, "Winner is...");
+                return;
+            }
         }
 
         private void button1_Click_1(object sender, EventArgs e)
@@ -49,6 +69,7 @@ namespace ox
             //
             checkWinner();
         }
+
 
 
     }

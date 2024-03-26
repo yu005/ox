@@ -1,3 +1,5 @@
+using ox;
+
 namespace OXGame
 {
     internal static class Program
